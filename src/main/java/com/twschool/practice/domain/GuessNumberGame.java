@@ -3,6 +3,7 @@ package com.twschool.practice.domain;
 import com.twschool.practice.domain.GameStatus;
 
 import java.util.List;
+import java.util.Map;
 
 public class GuessNumberGame {
     private Answer answer;
@@ -41,4 +42,5 @@ public class GuessNumberGame {
     public GameStatus getStatus() {
         return status;
     }
+
 }
